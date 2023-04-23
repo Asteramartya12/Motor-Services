@@ -12,15 +12,39 @@
 <link rel="icon" type="image/icon" href="https://drive.google.com/file/d/14mW-2b472LEKWkD-AH-67LZW5TZ6XbD7/view?usp=share_link">
 <style>
     /* Set the background color of the navbar to your desired color */
-    .navbar {
-      background-color: #e99462;
-	   /* Change this to the desired color */
-    }
-	.navbar a{
-		color: rgb(22, 6, 235);
-	}
-	.navbar a:hover{
-		color: aliceblue;
+	.navbar {
+		background-color: #000; /* Set the background color of the navbar */
+		height: 60px; /* Set the height of the navbar */
+		position: fixed; /* Fix the navbar to the top of the page */
+		width: 100%; /* Set the width of the navbar to 100% of the viewport */
+		z-index: 999; /* Set the z-index to ensure the navbar is on top of other elements */
+		margin-bottom: 10px;
+	  }
+	  .navbar-brand {
+		color: #fff; /* Set the font color of the navbar brand */
+		font-size: 24px; /* Set the font size of the navbar brand */
+		font-weight: bold; /* Set the font weight of the navbar brand */
+		margin-left: 15px; /* Add left margin to the navbar brand */
+	  }
+	  .navbar-nav {
+		margin-right: 15px; /* Add right margin to the navbar navigation items */
+	  }
+	  .navbar-nav .nav-item {
+		margin-right: 10px; /* Add right margin to each navbar navigation item */
+	  }
+	  .navbar-nav .nav-item .nav-link {
+		color: #fff; /* Set the font color of the navbar navigation items */
+		font-size: 16px; /* Set the font size of the navbar navigation items */
+		font-weight: bold; /* Set the font weight of the navbar navigation items */
+		padding-top: 10px; /* Add top padding to the navbar navigation items */
+		padding-bottom: 10px; /* Add bottom padding to the navbar navigation items */
+	  }
+	  .navbar-nav .nav-item a:hover{
+		color:rgb(24, 166, 231)
+	  }
+	.carousel-caption h1{
+		color: red;/* Specify the text color */
+      	text-shadow: -1px -1px 0 rgb(255, 255, 255), 1px -1px 0 rgb(255, 255, 255), -1px 1px 0 rgb(255, 255, 255), 1px 1px 0 #f00; /* Specify the outline color, offset, and blur */
 	}
   </style>
 </head>
@@ -61,7 +85,7 @@
 						<img src="Images/mech.jpg" class="w-100" alt="mech">
 						<div class="carousel-caption">
 									<h1>Welcome to EngineXpert</h1>
-									<h3 >We provide high-quality motor repair and maintenance services.</h3>
+									<h4>We provide high-quality motor repair and maintenance services.</h4>
 								</div>
 					</div>
 					<div class="carousel-item">
